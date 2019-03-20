@@ -1,0 +1,19 @@
+Practical Web Scraping for Data Science : Best Practices and Examples with Python /
+Author:
+by Seppe Vanden Broucke, Bart Baesens.
+Publication info:
+[Place of publication not identified] : Apress, 2018.
+
+
+Creating Meaningful Websites
+A Comprehensive Website Planning Guide
+Smashing Magazine GmbH © 2013
+
+
+Pro HTML5 with CSS, JavaScript, and Multimedia: Complete Website Development and Best Practices
+Apress © 2017
+
+
+avaScript and jQuery for Data Analysis and Visualization
+By:  Jon J. Raasch, Graham Murray, Vadim Ogievetsky,Joseph Lowery
+Publisher:  Wrox Press © 2015

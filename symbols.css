@@ -1,0 +1,21 @@
+@font-face{
+    font-family: "knittingSymbols";
+    src:url('/StitchMastery/StitchMasteryDot.ttf') format('truetype');
+}
+
+td{
+    font-family: "knittingSymbols";
+    text-align: center;
+    padding: 3px; 
+}
+table, th, td {
+  border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+}
+tr:hover {background-color:coral;}
+td:hover {background-color: aquamarine;}
+
+p {align-content: center;}
