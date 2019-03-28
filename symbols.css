@@ -4,7 +4,7 @@
 }
 
 td{
-    font-family: "knittingSymbols";
+    font-family: "knittingSymbols", fantasy;
     text-align: center;
     padding: 3px; 
 }
