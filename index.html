@@ -11,14 +11,9 @@
     
     <body>
 
-        <textarea onchange="" id="textBox" rows="10" cols="80" placeholder="Row 1: K2,P2,K2&#x0a;Row 2: K2,P2,K2"></textarea>
-        <button onclick="scrape()">Next Row</button>
-        
-        <p id="coord"></p>
-        
-        <label for= "Row1">Row 1: </label><input id="Row 1" oninput="" name="Row 1" size="20">
-        
-        
+        <textarea id="textBox" rows="10" cols="80" placeholder="Row 1: K2,P2,K2&#x0a;Row 2: K2,P2,K2"></textarea>
+        <button onclick="createChart()">Try it</button>
+
         <table id="tableTest" align="center">
               <caption>Knitting Chart</caption>
             <tr onclick="coordinate(this)"><td onclick="coordinate(this)">k</td><td onclick="currentCell(this)">k</td><td>p</td><td>p</td><td>k</td><td>k</td></tr>
