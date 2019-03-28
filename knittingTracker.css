@@ -1,24 +1,21 @@
-#container {
-	position: relative;
-	top: 30px;
-	outline:2px solid #000;
-	font-size: 0;
-	margin:auto;
-	height:960px;
-	width:960px;
-	padding: 0;
-	border: none;
+@font-face{
+    font-family: "knittingSymbols";
+    src:url('/StitchMastery/StitchMasteryDot.ttf') format('truetype');
 }
 
-.grid {
-	margin:0;
-	padding:0;
-	border:none;
-	outline:1px solid #000;
-	display:inline-block;
-}
-
-h1{
+td{
+    font-family: "knittingSymbols", fantasy;
     text-align: center;
-    font-size: 20px;
+    padding: 3px; 
 }
+table, th, td {
+  border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+}
+tr:hover {background-color:coral;}
+td:hover {background-color: aquamarine;}
+
+p {align-content: center;}
