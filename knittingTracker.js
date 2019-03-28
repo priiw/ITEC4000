@@ -1,43 +1,19 @@
 //import defaultExport from './dictionary.js'
 
-let instruction = document.getElementById("textBox").value;
-const firstRow = table.rows[0];
+let instruction = document.getElementById("textBox");
 const table = document.getElementById("tableTest");
-let currentRowNumber = 0; 
 
-// when detected input, update table, add cell at the end of table row - ignore spaces and commas
-function addRowTextArea(){
-    alert("it's running");
-    // when detect "enter" in textarea, add a row
-    if(event.keyCode == 13){
-// create a row if textfield not empty
-    let newRow = table.insertRow(0);
-    let newCell = newRow.insertCell(0);
-    newCell.innerHTML = "new cell 1";
-    }
+function createChart() {
+    var chart = document.createElement("TABLE");
+    chart.setAttribute("id", "knittingChart");
+    document.body.appendChild(chart);
+
+    var row = document.createElement("TR");
+    row.setAttribute("id", "rows");
+    document.getElementById("knittingChart").appendChild(row);
+
+    var cell = document.createElement("TD");
+    var cellValue = document.createTextNode("cell");
+    cell.appendChild(cellValue);
+    document.getElementById("rows").appendChild(cell);
 }
-
-function addRowText(){
-if(instruction.value !== ""){
-        let newRow = table.insertRow(currentRowNumber);
-        let inputVal = document.getElementById("Row1").value;
-        
-    }
-    
-    }
-
-
-}
-function coordinate(x){
-    let currentCell = x.cellIndex;
-    let currentRow  = x.rowIndex;
-    let totalRow = table.rows.length; 
-    alert(currentCell +"/" + totalRow);
-}
-
-function scrape(){ 
-    try{alert("wee");}
-    catch(err){document.getElementById("coord").innerHTML=err.message;}
-    
-}
-
