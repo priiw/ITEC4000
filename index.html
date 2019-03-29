@@ -1,28 +1,31 @@
 <!DOCTYPE HTML>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="A page for tracking knitting or crocheting">
-        <link rel=stylesheet type="text/css" href="knittingTracker.css">
-        <link rel=stylesheet type="text/css" href="symbols.css">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="A page for tracking knitting or crocheting">
+    <link rel=stylesheet type="text/css" href="knittingTracker.css">
+    <link rel=stylesheet type="text/css" href="symbols.css">
 
-        <title>Knitting Tracker</title>
-    </head>
-    
-    <body>
+    <title>Knitting Tracker</title>
+</head>
 
-        <textarea id="textBox" rows="10" cols="80" placeholder="Row 1: K2,P2,K2&#x0a;Row 2: K2,P2,K2"></textarea>
-        <button onclick="createChart()">Try it</button>
+<body>
 
-        <table id="tableTest" align="center">
-              <caption>Knitting Chart</caption>
-            <tr onclick="coordinate(this)"><td onclick="coordinate(this)">k</td><td onclick="currentCell(this)">k</td><td>p</td><td>p</td><td>k</td><td>k</td></tr>
-            <tr><td>k</td><td>k</td><td>p</td><td>p</td><td>k</td><td>k</td></tr>
-        </table>
+<textarea class="noscrollbars" id="textBox" onkeyup="autoGrow(this);" placeholder="Row 1: K2,P2,K2&#x0a;Row 2: K2,P2,K2"></textarea>
+<br />
+<button onclick="createChart()">Try it</button>
+<button onclick="splitLines()">split</button>
+<input type="submit" value="Send" />
 
-    </body>
-    
+<table id="tableTest" align="center">
+    <caption>Knitting Chart</caption>
+    <tr onclick="coordinate(this)"><td onclick="coordinate(this)">k</td><td onclick="currentCell(this)">k</td><td>p</td><td>p</td><td>k</td><td>k</td></tr>
+    <tr><td>k</td><td>k</td><td>p</td><td>p</td><td>k</td><td>k</td></tr>
+</table>
 
-   <script src="knittingTracker.js"></script>
-    <script src="dictionary.js"></script>
+</body>
+
+
+<script src="knittingTracker.js"></script>
+<script src="dictionary.js"></script>
 </html>
