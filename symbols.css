@@ -1,15 +1,16 @@
+
 @font-face{
     font-family: "knittingSymbols";
-    src:url('/StitchMastery/StitchMasteryDot.ttf') format('truetype');
+    src:url('./StitchMastery/StitchMasteryDot.ttf') format('truetype');
 }
 
 td{
     font-family: "knittingSymbols", fantasy;
     text-align: center;
-    padding: 3px; 
+    padding: 3px;
 }
 table, th, td {
-  border: 1px solid black;
+    border: 1px solid black;
 }
 
 table{
