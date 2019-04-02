@@ -6,7 +6,7 @@ class StitchDictionary{
         this._abbreviation = abbreviation;
         this._description = description;
         this._symbol = symbol;
-        this._stitch = stitch; 
+        this._stitch = stitch;
     }
     get name(){
         return this._name;
@@ -31,4 +31,4 @@ const ssk =  new StitchDictionary("slip slip knit", "ssk", "increase - right lea
 const yo = new StitchDictionary("yarn over", "YO", "yarn over", "o", 1); //add 1 cell
 const m1= new StitchDictionary("make one","M1", "make one",">", 1); //add 1 cell
 const noSt = new StitchDictionary("no stitch", "no st", "no stitch", "w",1);
-const BO = new StitchDictionary("bind off", "BO", "bind off", "T");
+const BO = new StitchDictionary("bind off", "BO", "bind off", "T", 1);
