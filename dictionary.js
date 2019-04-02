@@ -26,6 +26,9 @@ class StitchDictionary{
 }
 const knit = new StitchDictionary("knit", "K", "knit", "k", 1);//Knit stitch
 const purl = new StitchDictionary("purl", "P", "purl", "p", 1);//Purl stitch
-const k2tog = new StitchDictionary("knit 2 together", "k2tog", "increase - left leaning", "U", 2);
-const ssk =  new StitchDictionary("slip slip knit", "ssk", "increase - right leaning", "V", 2);
-const m1= new StitchDictionary("make one","m1", "make one",">", 1);
+const k2tog = new StitchDictionary("knit 2 together", "k2tog", "increase - left leaning", "U", 2); //decrease 1 cell
+const ssk =  new StitchDictionary("slip slip knit", "ssk", "increase - right leaning", "V", 2); //decrease 1 cell
+const yo = new StitchDictionary("yarn over", "YO", "yarn over", "o", 1); //add 1 cell
+const m1= new StitchDictionary("make one","M1", "make one",">", 1); //add 1 cell
+const noSt = new StitchDictionary("no stitch", "no st", "no stitch", "w",1);
+const BO = new StitchDictionary("bind off", "BO", "bind off", "T");
