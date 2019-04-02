@@ -4,6 +4,10 @@
     src:url('./StitchMastery/StitchMasteryDot.ttf') format('truetype');
 }
 
+body{
+    font-family: Calibri;
+}
+
 td{
     font-family: "knittingSymbols", fantasy;
     text-align: center;
@@ -16,7 +20,7 @@ table, th, td {
 table{
     border-collapse: collapse;
 }
+
 tr:hover {background-color:coral;}
 td:hover {background-color: aquamarine;}
 
-p {align-content: center;}
